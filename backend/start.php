@@ -106,7 +106,7 @@ echo '</div>';
 echo '<div class="col-md-2">';
 
 echo '<div class="form-group">';
-echo '<label><br></label>';
+echo '<label class="d-block"><br></label>';
 echo '<input type="hidden" name="event_id" value="'.$event_id.'">';
 echo '<input type="hidden" name="csrf_token" value="'.$_SESSION['token'].'">';
 echo '<input class="btn btn-success btn-block" type="submit" name="save_event" value="'.$lang['save'].'">';
